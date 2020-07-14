@@ -6,9 +6,15 @@ if [ ! -f "artisan" ]; then
 fi
 
 git clone https://github.com/NoahvdAa/PterodactylDarkThemes.git -b DarkReaderMedium_0.7.17 'temp_themeinstall'
-cp temp_themeinstall/public ./
-cp temp_themeinstall/resources ./
+cp -R temp_themeinstall/public/* ./public/
+cp -R temp_themeinstall/resources/* ./resources/
 
 echo "Done! Be sure to set"
 echo "APP_THEME=DarkReaderMedium"
 echo "in .env and reload your cache (CTRL+SHIFT+R)."
+
+echo "Refreshing pterodactyl theme cache..."
+php artisan theme:refresh-cache
+
+echo "Cleaning up temp files..."
+rm -rf temp_themeinstall/
