@@ -5,12 +5,12 @@ if [ ! -f "artisan" ]; then
     exit
 fi
 
-git clone https://github.com/NoahvdAa/PterodactylDarkThemes.git -b DarkReaderMedium_0.7.17 'temp_themeinstall'
+git clone https://github.com/NoahvdAa/PterodactylDarkThemes.git -b DarkReaderDark_0.7.17 'temp_themeinstall'
 cp -R temp_themeinstall/public/* ./public/
 cp -R temp_themeinstall/resources/* ./resources/
 
 echo "Done! Be sure to set"
-echo "APP_THEME=DarkReaderMedium"
+echo "APP_THEME=DarkReaderDark"
 echo "in .env and reload your cache (CTRL+SHIFT+R)."
 
 echo "Refreshing pterodactyl theme cache..."
