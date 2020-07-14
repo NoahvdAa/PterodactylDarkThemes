@@ -1,0 +1,5 @@
+{
+    "name": "DarkReaderLight",
+    "extends": "pterodactyl",
+    "asset-path": "themes\/DarkReaderLight"
+}
