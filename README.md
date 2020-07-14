@@ -13,3 +13,9 @@ A slightly lighter dark theme for pterodactyl.
 A dark theme for pterodactyl.
 
 [0.7.17](https://github.com/NoahvdAa/PterodactylDarkThemes/tree/DarkReaderMedium_0.7.17)
+
+### Dark Reader Dark
+
+A slightly darker dark theme for pterodactyl.
+
+[0.7.17](https://github.com/NoahvdAa/PterodactylDarkThemes/tree/DarkReaderDark_0.7.17)
