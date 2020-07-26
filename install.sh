@@ -5,7 +5,7 @@ if [ ! -f "artisan" ]; then
     exit
 fi
 
-git clone https://github.com/NoahvdAa/PterodactylDarkThemes.git -b DarkReaderLight_0.7.17 'temp_themeinstall'
+git clone https://github.com/NoahvdAa/PterodactylDarkThemes.git -b DarkReaderLight_0.7.18 'temp_themeinstall'
 cp -R temp_themeinstall/public/* ./public/
 cp -R temp_themeinstall/resources/* ./resources/
 
